@@ -293,7 +293,7 @@
         label.textColor = self.pickerStyle.pickerTextColor;
         label.font = self.pickerStyle.pickerTextFont;
         // 字体自适应属性
-        label.adjustsFontSizeToFitWidth = YES;
+        label.adjustsFontSizeToFitWidth = NO;
         // 自适应最小字体缩放比例
         label.minimumScaleFactor = 0.5f;
     }
